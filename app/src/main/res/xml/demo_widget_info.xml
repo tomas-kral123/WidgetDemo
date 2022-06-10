@@ -2,6 +2,7 @@
 
 <!--Widget config-->
 <!--Minimal refresh time 'updatePeriodMillis' is 30 min. -->
+<!--A grid cell is 30dp wide and 50dp tall.-->
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/app_widget_description"
     android:initialKeyguardLayout="@layout/demo_widget"
