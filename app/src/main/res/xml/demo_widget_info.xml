@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Widget config-->
+<!--Minimal refresh time 'updatePeriodMillis' is 30 min. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/demo_widget"
+    android:initialLayout="@layout/demo_widget"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:previewLayout="@layout/demo_widget"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />
